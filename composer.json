@@ -1,0 +1,20 @@
+{
+	"name": "anmishael/yii2-djax",
+	"description": "Modified default yii2-pjax for custom usage and composer support",
+	"homepage": "https://github.com/anmishael/yii2-djax#readme",
+	"license": "MIT",
+	"support": {
+		"irc": "irc://irc.freenode.org/jquery",
+		"issues": "https://github.com/anmishael/yii2-djax/issues",
+		"forum": "http://www.yiiframework.com/forum/",
+		"source": "https://github.com/anmishael/yii2-djax"
+	},
+	"require": {
+		"yiisoft/jquery": ">=1.8"
+	},
+	"autoload": {
+                "psr-0": {
+                        "anmishael\\djax\\": ""
+                }
+        }
+}
