@@ -42,7 +42,9 @@ function fnDjax(selector, container, options) {
     if (!opts.container)
       opts.container = $(this).attr('data-djax') || context
     handleClick(event, opts);
-    event.preventDefault();
+    if(parseInt($(this).attr('data-djax')) !== 0) {
+      event.preventDefault();
+    }
   })
 }
 
