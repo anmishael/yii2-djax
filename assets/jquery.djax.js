@@ -41,7 +41,8 @@ function fnDjax(selector, container, options) {
 	}
     if (!opts.container)
       opts.container = $(this).attr('data-djax') || context
-    handleClick(event, opts)
+    handleClick(event, opts);
+    event.preventDefault();
   })
 }
 
